@@ -4,7 +4,7 @@ compatibility_date = "2023-10-30"
   
 [vars]
 # 连接后缀：防止别人连接使用输入正确的后缀才能连接 ，用法 -s wss://域名/后缀
-WS_PATH = "vnt"
+WS_PATH = "lion"
 
 # 默认网关地址（如果客户端未指定虚拟IP，将分配这个网段的，客户端可以指定任意网段）
 GATEWAY = "10.26.0.1"
@@ -13,7 +13,7 @@ GATEWAY = "10.26.0.1"
 NETMASK = "255.255.255.0"
 
 # Token白名单，多个token用逗号分隔（填写后将只接受指定的token才可以连接注册）例如：token1,token2,token3 
-WHITE_TOKEN = ""
+WHITE_TOKEN = "npHx84dbJg7z6L4MjhMFNjxDZdEkbmxlns/OUdDJVr0="
 
 # 服务器网关显示名称  
 GATEWAY_NAME = "服务器"
